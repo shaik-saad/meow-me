@@ -75,3 +75,9 @@ div.quiz-option {
     border-radius: var(--border-radius-extra-small);
     margin: 0.5rem 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .quiz-main-container {
+        width: 80%;
+    }
+}

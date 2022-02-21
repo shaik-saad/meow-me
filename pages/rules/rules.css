@@ -8,3 +8,9 @@
 .rules-list li {
     padding: 0.5rem 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .rules-container {
+        width: 80%;
+    }
+}

@@ -6,7 +6,7 @@
 }
 
 .auth-section {
-    width: 80%;
+    width: 100%;
 }
 
 .auth-section input{
@@ -25,6 +25,12 @@
 .auth-secondary-actions {
     display: flex;
     justify-content: space-between;
+}
+
+@media only screen and (min-width: 375px) {
+    .auth-section {
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 600px) {

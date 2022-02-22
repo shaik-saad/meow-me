@@ -1,0 +1,16 @@
+.rules-container {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.rules-list li {
+    padding: 0.5rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .rules-container {
+        width: 80%;
+    }
+}

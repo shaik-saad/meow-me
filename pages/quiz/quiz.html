@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Meow-me</title>
+    
+    <!-- SLEEK UI CSS -->
+    <link rel="stylesheet" href="https://sleek-ui.vercel.app/css/sleekui.css">
+
+    <!-- Meow-me site CSS -->
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="./quiz.css">
+</head>
+<body>
+
+    <!-- Header Starts here -->
+    <header class="header-container">
+        <nav class="navbar navbar-primary">
+            <div class="navbar-section">
+                <a class="nav-brand" href="../../index.html">MEOW-ME</a>
+            </div>
+            <div class="navbar-section">
+                <ul class="nav-list">
+                    <li class="nav-list-item active">
+                        <button class="btn btn-secondary">
+                         Logout
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Ends here -->
+    
+    <!-- Heading -->
+    <div class="fw-semi-bold text-center mt-8">
+        <h4>Quiz Name Comes here</h4>
+    </div>
+
+    <!-- Main container starts here -->
+    <main class="main-container quiz-main-container my-8">
+
+        <!-- Current question -->
+        <div class="quiz-state-container">
+            <p><span class="fw-semi-bold">Question:</span> 1/5</p>
+
+            <!-- Timer -->
+            <div class="timer-container">
+                <span class="timer">30</span>
+            </div>
+
+            <!-- User's current score -->
+            <p><span class="fw-semi-bold">Score:</span> 0</p>
+        </div>
+
+        <!-- Quiz starts here -->
+        <div class="quiz-container">
+            <div class="quiz-header">
+                Q1. This cat breed has signature blue eyes and a plush, light-colored coat that's often darker on the face, tail, and ears.
+            </div>
+            <div class="quiz-body">
+                <input type="radio" name="quiz" id="quiz-option-1">
+                <label for="quiz-option-1">Abyssinian</label>
+                <input type="radio" name="quiz" id="quiz-option-2">
+                <label for="quiz-option-2">Bristish Shorthair</label>
+                <input type="radio" name="quiz" id="quiz-option-3">
+                <label for="quiz-option-3">Ragdoll</label>
+                <input type="radio" name="quiz" id="quiz-option-4">
+                <label for="quiz-option-4">Scottish Fold</label>
+            </div>
+            <div class="quiz-actions">
+                <button class="btn btn-danger-outline mt-6 p-0"><a class="px-8" href="../quiz-by-category/quiz-by-category.html">Quit</a></button>
+                <button class="btn btn-success mt-6 p-0"><a class="px-8" href="./result.html">Submit</a></button>
+            </div>
+        </div>
+        <!-- Quiz starts here -->
+    </main>
+    <!-- Main container ends here -->
+
+    <!-- Footer starts here-->
+    <footer class="footer-container">
+        <section>
+            <p>Designed and built with <i class="fas fa-heart text-danger mx-1"></i> by <span class="ml-1">&lt;>Shaik Saadullah&lt;/></span></p>
+            <div class="social-links mt-4 fs-3">
+                <a href="https://github.com/shaik-saad">
+                    <i class="fa-brands fa-github mx-2"></i>
+                </a>
+                <a href="https://twitter.com/shaiksaadullah">
+                    <i class="fa-brands fa-twitter mx-2"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/shaik-saad/">
+                    <i class="fa-brands fa-linkedin mx-2"></i>
+                </a>
+            </div>
+            <small class=" text-gray mt-2">© 2022 | <span class="text-primary">MEOW-ME</span></small>
+        </section>
+    </footer>
+    <!-- Footer ends here-->
+</body>
+</html>

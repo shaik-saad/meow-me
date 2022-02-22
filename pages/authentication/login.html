@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Meow-me</title>
+    
+    <!-- SLEEK UI CSS -->
+    <link rel="stylesheet" href="https://sleek-ui.vercel.app/css/sleekui.css">
+
+    <!-- Meow-me site CSS -->
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="./auth.css">
+</head>
+<body>
+
+    <!-- Header Starts here -->
+    <header class="header-container">
+        <nav class="navbar navbar-primary">
+            <div class="navbar-section">
+                <a class="nav-brand" href="../../index.html">MEOW-ME</a>
+            </div>
+            <div class="navbar-section">
+                <ul class="nav-list">
+                    <li class="nav-list-item active">
+                        <a href="./signup.html" class="nav-link">
+                         Signup
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Ends here -->
+    
+    <!-- Main container starts here -->
+    <main class="auth-main-container">
+        <section class="auth-section mx-4 py-6 px-10 br-xs">
+            <h4 class="text-center pt-2 pb-4">Login</h4>
+            <div class="login-form">
+                <label class="form-label" for="email">Email *</label>
+                <input class="form-field" type="email" name="email" id="email" required>
+                <label class="form-label" for="password">Password *</label>
+                <input class="form-field" type="password" name="password" id="password" required>
+                <div class="auth-secondary-actions">
+                <label class="form-label m-0 text-sm" for="checkbox-input">
+                    <input class="form-checkbox" type="checkbox" name="checkbox-example" id="checkbox-input">
+                    Remember me
+                </label>
+                <a class="text-right text-sm forget-link" href="./forget-password.html">Forgot your password?</a>
+                </div>
+                <div class="auth-primary-actions">
+                    <button class="btn btn-primary m-0 mt-4">Login</button>
+                    <a class="btn mx-0 text-center text-sm" href="./signup.html">Create a new account <i class="fa-solid fa-angle-right ml-2"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main container ends here -->
+</body>
+</html>
